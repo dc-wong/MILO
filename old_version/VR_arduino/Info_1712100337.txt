@@ -1,0 +1,20 @@
+DateTime: 04/03/2024 07:25:37
+License: Trial
+Language: English(US)
+Board type: Arduino Nano RP2040
+Serial number: 012323C79F795B1DEE58BF253BE434
+
+Trigger:
+	100	hello row boe
+
+Command:
+	10000	go up
+	10001	go down
+	10010	closer
+	10011	farther
+	10030	reset
+	10020	set position one
+	10021	set position two
+	10022	move position one
+	10023	move position two
+
