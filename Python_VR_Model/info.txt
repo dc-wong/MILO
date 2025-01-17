@@ -1,2 +1,0 @@
-# Current version of the Python VR model using TensorFlow
-# In - progress
