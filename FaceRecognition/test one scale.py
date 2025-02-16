@@ -28,7 +28,7 @@ model = ssdlite320_mobilenet_v3_large(num_classes = 2)  # Set to True if you wan
 
 # Load the trained model
 model_path = "model_default.pth"  # Adjust if necessary
-model.load_state_dict(torch.load(model_path, map_location=torch.device('cuda')))
+model.load_state_dict(torch.load(model_path, map_location=torch.device('cuda'), weights_only=True))
 model.to('cuda')
 model.eval()
 
